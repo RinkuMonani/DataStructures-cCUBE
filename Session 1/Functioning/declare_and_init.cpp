@@ -22,20 +22,31 @@ using namespace std; // kindof like packages
 
 int main(){
     //case 1
-    // int A[];
+    // int A[];     //error
 
     //case 2
-    // int A[5];
+    // int A[5];    //garbage value
 
     //case 3
-    // int A[5] = {1, 2, 3};
+    int A[5] = {1, 2, 3};       // 1, 2, 3, 0, 0
 
     //case 4
-    // int A[3] = {1, 2, 3, 4, 5};
+    // int A[3] = {1, 2, 3, 4, 5};     // error: too many initializers
 
     // case 5
-    int A[] = {'A', 'B', 'C'};
-    
+    // int A[] = {'A', 'B', 'C'};       // type conversion
+
+    //////////////////////////////////////////////////////////////////
+
+    // case 6
+    // int A[] {}; //no error - no output
+
+    // case 7
+    // int A[5] {}; // 0, 0, 0, 0, 0; 
+
+    // case 8
+    // int A[5] {5}; // 5, 0, 0, 0, 0; 
+
     int size = sizeof(A) / sizeof(A[0]);
 
     for(int i=0; i<size; ++i){
