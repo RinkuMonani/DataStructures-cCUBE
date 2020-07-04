@@ -6,7 +6,7 @@
     - no. of operations perfomred by your algo wrt input size!
     
 3. Space complexity: input size + auxillary space
-    - Auxillary space: temporary space used by your progran/algo.
+    - Auxillary space: temporary space used by your program/algo.
 */
 
 #include<iostream>
@@ -14,11 +14,11 @@ using namespace std;
 
 int main(){
 
-    int N = 10;     // auxillary space : sizeof(int)
+    int N, m , p = 10;     // auxillary space : sizeof(int) // 4*1 = 4 
 
-    int array[N];   // input size: N * sizeof(int)
+    int array[N];   // input size: N * sizeof(int)  4 , 4, 4, 4*N 
     
-    for(int i=0; i<N; ++i){     // No. of Operations: N, time complexity : O(N)
+    for(int i=0; i<N; ++i){     // No. of Operations: N, time complexity : O(N) // worst case
         cin>>array[i];
     }
 
@@ -26,14 +26,17 @@ int main(){
     for(int i=0; i<N; ++i){     // No. of operations: N, time complexity : O(N);
         cout<<array[i]<<" ";
     }
-
+     
+    
     /*
-    Space complexity ->
+    Space complexity -> 4 + 40  
     = sizeof(int) + N*sizeof(int);
-    = O(N * sizeof(int))
+    = O(N) 
     = O(N) 
 
-    // we are only converned about the space wrt number of inputs, 
+    O(1) -> int temp=0;
+
+    // we are only concerned about the space wrt number of inputs, 
     // and N in he number of inputs
 
 
