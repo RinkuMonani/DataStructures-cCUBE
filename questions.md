@@ -20,13 +20,13 @@
 ----------------------------------------------------------------
 
 ## Problems from Codechef
-
+#### Key to solving questions on Codechef is - *less algorithmic and more mathematical.* *Enjoy!*
 > Hint:  
 > Visualize the problem in front of you.  
 > Analyze the test cases given to you.  
 > Try to use the basics of *Mathematics*
 
-#### Key to solving questions on Codechef is less algorithmic and more Mathematical. *Enjoy!*
+
 
 8. [When to take medicine](https://www.codechef.com/problems/MEDIC)
 
@@ -43,3 +43,10 @@
 11. [Weird Walk](https://www.codechef.com/LTIME84B/problems/WWALK) - Codechef May Lunch Time
 
 12. [Lost Weekends](https://www.codechef.com/LTIME84B/problems/LOSTWKND) - Codechef May Lunch Time
+
+----------------------------------------------------------------
+
+## Problems from GeeksForGeeks
+
+13. [Missing element of AP](https://practice.geeksforgeeks.org/problems/missing-element-of-ap/0)
+
