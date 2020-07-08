@@ -21,6 +21,13 @@
 
 ## Problems from Codechef
 
+> Hint:  
+> Visualize the problem in front of you.  
+> Analyze the test cases given to you.  
+> Try to use the basics of *Mathematics*
+
+#### Key to solving questions on Codechef is less algorithmic and more Mathematical. *Enjoy!*
+
 8. [When to take medicine](https://www.codechef.com/problems/MEDIC)
 
 > This was the first ever problem I solved online. I solved and solved but was not able to get an **AC**.
@@ -28,3 +35,11 @@
 > Eventually after a period of 1.5 months, i found out that my logic for calculating *leap year* was inefficient and that it did not work for some edge cases.
 > So go online and read about the parts where you get stuck.  
 > **EVERYTHING IS AVAILABLE ONLINE**
+
+9. [Walter and Jesse](https://www.codechef.com/CHPTRS01/problems/FUNRUN) - Codechef Campus Chapters 1.0
+
+10. [Distribute Apples](https://www.codechef.com/AUG19B/problems/DSTAPLS) - Codechef August Long Challenge
+
+11. [Weird Walk](https://www.codechef.com/LTIME84B/problems/WWALK) - Codechef May Lunch Time
+
+12. [Lost Weekends](https://www.codechef.com/LTIME84B/problems/LOSTWKND) - Codechef May Lunch Time
