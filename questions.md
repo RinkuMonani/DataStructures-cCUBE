@@ -17,7 +17,7 @@
 > If you know binary search, use it.
 > Otherwise a linear search will also give you the results.
 
-=======
+----------------------------------------------------------------
 
 ## Problems from Codechef
 
