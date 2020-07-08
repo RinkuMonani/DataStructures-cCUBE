@@ -16,17 +16,15 @@
 > Hint:
 > If you know binary search, use it.
 > Otherwise a linear search will also give you the results.
+
 ==========================================================
 
 ## Problems from Codechef
 
 8. [When to take medicine](https://www.codechef.com/problems/MEDIC)
 
-> This was the first ever problem I solved online. I solved and solved but was not able to get an **AC**.  
-
-> I was devastated because this was my first problem, it was in the *beginner* section on codechef and I couldn't solve it.  
-
+> This was the first ever problem I solved online. I solved and solved but was not able to get an **AC**.
+> I was devastated because this was my first problem, it was in the *beginner* section on codechef and I couldn't solve it.
 > Eventually after a period of 1.5 months, i found out that my logic for calculating *leap year* was inefficient and that it did not work for some edge cases.
-
 > So go online and read about the parts where you get stuck.  
 > **EVERYTHING IS AVAILABLE ONLINE**
