@@ -35,7 +35,7 @@ int main(){
     display(originalVector);
     cout<<"Vector Returned from Call by Value:\n";
     display(DuplicateVector);
-    DuplicateVector.clear();
+    DuplicateVector.clear(); // clears the Duplicate vector - all elements are flushed.
 
     cout<<"\n\n";
 
