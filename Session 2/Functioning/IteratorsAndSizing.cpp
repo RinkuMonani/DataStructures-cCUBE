@@ -40,7 +40,7 @@ int main(){
     //  value - 0   1   2   3           (size-4)
     //  add   - x1  x2  x3  x4  x5
     //          ^               ^
-    //        front            end()
+    //        front()          end()
     for(auto i=v.begin();i!=v.end();++i){
         cout<<*i<<" ";
     }
@@ -51,5 +51,5 @@ int main(){
         cout<<*i<<" ";
     }
     // there are also cbegin(), cend(), crbegin(), crend() which will return constant iterators.
-    // you might have guessed. these iterators value can;t be changed.
+    // you might have guessed. these iterators can't be modified.
 }
