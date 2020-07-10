@@ -31,11 +31,16 @@ int main(){
     cout<<v[4]<<"\n";
     cout<<v.front()<<"\n";// returns the first element
     cout<<v.back()<<"\n";//returns the last element; end() != back()
-    cout<<v.at(4)<<"\n";//returns the reference of argument index at(int index);
-
+    cout<<v.at(4)<<"\n";//returns the value stored at index given in the argument at(int index);
+    
 
     //3# iterators - Variables that specially built for traversing C++ containers
     //print in normal order - begin() points to first element and end() location after last position
+    //these functions returns the reference pointer which points to the address of first and last element
+    //  value - 0   1   2   3           (size-4)
+    //  add   - x1  x2  x3  x4  x5
+    //          ^               ^
+    //        front            end()
     for(auto i=v.begin();i!=v.end();++i){
         cout<<*i<<" ";
     }
