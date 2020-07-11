@@ -12,10 +12,13 @@ int main(){
     //1# Illustration of how vectors allows the size flexibility.
     v.reserve(4);//Requests that the vector capacity be at least enough to contain n elements.
     disp(v);
+
     for(int i=0;i<3;i++)
         v.push_back(i*2);
+        
     disp(v);
     v.push_back(6);
+
     disp(v);
     v.push_back(8);
     disp(v);
