@@ -3,7 +3,7 @@
 
     Input: 1
     Output: true 
-    Explanation: 20 = 1
+    Explanation: 2^0 = 1
 
     Input: 16
     Output: true
@@ -13,15 +13,37 @@
     Input: 218
     Ouput: false
 
+    inp: 4
+    100
+
+     .....8 4 2 1
+          1  0 0 0 
+
+
+
 */
 
 #include<iostream>
 using namespace std;
 
-// bool isPowerOfTwo(int n) { }
+bool check(int N){
+    if(N <= 0)
+        return false;
+
+    if(!(N & (N-1)))
+        return true;
+    else
+        return false;
+    
+}
 
 int main(){
-    int number = 0;
-    cout<<isPowerOfTwo(number)<<endl;
-    return 0;
+
+    int N;
+    cin>>N;
+
+    cout<<check(N)<<"\n";
+    // 0: false
+    // 1: true 
+
 }

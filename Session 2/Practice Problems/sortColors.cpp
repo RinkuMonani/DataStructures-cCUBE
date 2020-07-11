@@ -17,9 +17,38 @@
 
 #include<iostream>
 #include<vector>
+
 using namespace std;
 
-// void sortColorsTwoPass(vector<int>& nums) { }
+void sortColorsTwoPass(vector<int>& nums) { 
+  int zeros=0, ones=0, twos=0;
+
+  for(int n : nums){
+    if(n == 0)
+      zeros++;
+    else if(n == 1)
+      ones++;
+    else if(n == 2)
+      twos++;
+  } // O(N)
+
+  for(int i=0; i<zeros; ++i){
+    nums[i] = 0;
+  } // O(zeros)
+
+
+  for(int i=0+zeros; i<zeros+ones; ++i){
+    nums[i] = 1;
+  } //()
+
+  for(int i=zeros+ones; i<zeros+ones+twos; ++i){
+    nums[i] = 2;
+  }
+
+  // O(N + N)
+  // O(N)
+
+}
 
 // void sortColorsOnePass(vector<int>& nums) { }
 
@@ -27,8 +56,13 @@ int main(){
     
     vector<int> input {2,0,2,1,1,0};
 
-    // sortColorsTwoPass(input);
+    sortColorsTwoPass(input);
+
     // sortColorsOnePass(input);
+
+
+    // sort(input.begin(), input.end()); // nlogn -> mergeSort
+
     
     cout<<"\nOutput : ";
     

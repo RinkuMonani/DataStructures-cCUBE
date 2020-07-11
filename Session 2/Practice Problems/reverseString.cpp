@@ -18,15 +18,18 @@
 
 #include<iostream>
 #include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 
-// void reverseString(vector<char>& s) { }
+void reverseString(vector<string>& s) { 
+  reverse(s.begin(), s.end());
+}
 
 int main(){
     
     vector<string> input {"h","e","l","l","o"};
     
-    // reverseString(input);
+    reverseString(input);
     
     cout<<"\nOutput : ";
     
