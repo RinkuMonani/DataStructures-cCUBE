@@ -8,26 +8,40 @@
 First things first I am really glad you were still hung up on this and are here to know the answer.  
 
 Now, I read a bunch of articles and posts on the internet and I would like to admit it straight that there happen to 
-be not one but mulitple explanations to this! Due of lack of availability of ny official documentation there are only theories and conclusions drawn by users of this *container*.
+be not one but mulitple explanations to this! Due of lack of availability of any official documentation there are only theories and conclusions drawn by users of this *container*.
 
-That's why I have included links to all the posts that I read to find an answer of the undefined behavior so that you can look them up and select an explanation that works best for you logically.
+That's why I have included links to all the posts that I read to learn the answer of the undefined behavior so that you can look them up and select an explanation that works best for you logically.
 
 Coming back to the lines of code that introduced us to this UB,
 
-> INPUT
+> INPUT  
+
 > stack<int> stk;
+
 > cout<<"Init size : "<<*stk.size()<<<endl;* 
+
 > cout<<"Is empty : "<<*stk.empty()<<endl;* 
+
 >
+
 > stk.pop();
+
 >
+
 > cout<<"New size : "<<*stk.size()<<endl;*
+
 > cout<<"Is empty : "<<*stk.empty()<<endl;*
+
 >
+
 >OUTPUT
+
 >Init Size: 0
+
 >Is empty: 1
+
 >New Size: 4294967295
+
 > Is empty: 0
 
 
