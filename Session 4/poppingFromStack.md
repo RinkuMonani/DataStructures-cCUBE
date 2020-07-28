@@ -16,30 +16,20 @@ Coming back to the lines of code that introduced us to this UB,
 
 > INPUT  
 
-> stack<int> stk;  
+> stack<<int>> stk;  
 > cout<<"Init size : "<<*stk.size()<<<endl;*  
 > cout<<"Is empty : "<<*stk.empty()<<endl;* 
-
 >
-
 > stk.pop();
-
 >
-
-> cout<<"New size : "<<*stk.size()<<endl;*
-
+> cout<<"New size : "<<*stk.size()<<endl;*  
 > cout<<"Is empty : "<<*stk.empty()<<endl;*
-
->
 
 >OUTPUT
 
->Init Size: 0
-
->Is empty: 1
-
->New Size: 4294967295
-
+>Init Size: 0  
+>Is empty: 1  
+>New Size: 4294967295  
 > Is empty: 0
 
 
