@@ -33,7 +33,7 @@ Coming back to the lines of code that introduced us to this UB,
 > Is empty: 0
 
 
-From the above code we see that calling stack::pop() on an empty stack modifies the size of stack to some garbage value (probably that is what is defined as) and that is the reason stack::empty() returns a false.
+From the above code we see that calling stack::pop() on an empty stack modifies the size of stack to some garbage value (probably that is what is it defined as) and that is the reason stack::empty() returns a false.
 
 After running above code we would think that since our stack is no longer empty (probably filed with some garbage values), stack::top() might return some output value to us but (drum rolls) it still terminates the program without any exception.
 
@@ -51,8 +51,12 @@ There are coders out there who question this decision of the makers but I guess 
 
 2. [C++ STL stack question: Why does pop() not throw an exception if the stack is empty?](https://stackoverflow.com/questions/4892108/c-stl-stack-question-why-does-pop-not-throw-an-exception-if-the-stack-is-em)
 
-*I learned a lot more about these STL containers* (including the fact that the correct term is *container* and not DS) and I will make sure to discuss about it in the next session. Nevertheless, here are the links to those posts.
+*I learned a lot more about these STL containers* (including the fact that the correct term is **container** and not DS) and I will make sure to discuss about it in the next session. Nevertheless, here are the links to those posts.
 
 3. [Memory Allocation in STL C++](https://stackoverflow.com/questions/29869144/memory-allocation-in-stl-c#:~:text=Almost%20all%20STL%20containers%20memory,that%20have%20memory%20on%20stack.)
 
 4. [STL stack uses a lot of memory](https://codeforces.com/blog/entry/17307)
+
+**Feel free to [contact me](mailto:monanira@gmail.com) in case you have any doubts.**
+
+Happy Learning❤
