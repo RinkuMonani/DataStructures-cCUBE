@@ -16,10 +16,8 @@ Coming back to the lines of code that introduced us to this UB,
 
 > INPUT  
 
-> stack<int> stk;
-
-> cout<<"Init size : "<<*stk.size()<<<endl;* 
-
+> stack<int> stk;  
+> cout<<"Init size : "<<*stk.size()<<<endl;*  
 > cout<<"Is empty : "<<*stk.empty()<<endl;* 
 
 >
