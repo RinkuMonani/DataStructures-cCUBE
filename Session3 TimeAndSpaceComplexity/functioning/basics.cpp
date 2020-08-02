@@ -1,0 +1,3 @@
+/*
+    Function of input size 
+*/
