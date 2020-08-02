@@ -1,0 +1,15 @@
+/*
+
+    NOTE ABOUT SESSION 4 STACK
+        - I SAID STACK DS ALLOCATED MEMORY IN STACK, 
+        - THAT DOESN'T HAPPEN ALWAYS
+        - MEMORY IS ALLOCATE IN STACK ONLY WHEN YOUR STACK IS BEING IMPLEMENTED
+        - USING A FIXED SIZE DS SUCH AS AN ARRAY.
+        - OTHERWISE MEMORY IS ALLOCATED IN HEAP
+
+    TOPICS:
+    1. Declaration of Queue
+    2. Insert object of User Defined datatype into queue
+*/
+
+
