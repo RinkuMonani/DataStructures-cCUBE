@@ -6,15 +6,15 @@ For example, questions revolving around linked list generally provide the core s
 
 *when I say structure, I don't just mean 'STRUCT'*
 
-###### Here are some questions for your reference
+#### Here are some questions for your reference
 We are yet to cover linked list in our sessions so do not be hard on yourself if you find these question definitions intriguing.
 
 For now, feel free to read the questions and **go through code that is given to you already!**
 
-1. (Middle of a Linked List:)[https://leetcode.com/problems/middle-of-the-linked-list/]
+1. [Middle of a Linked List:](https://leetcode.com/problems/middle-of-the-linked-list/)
 
-2. (Add two numbers)[https://leetcode.com/problems/add-two-numbers/]
+2. [Add two numbers](https://leetcode.com/problems/add-two-numbers/)
 
-3. (Sort List)[https://leetcode.com/problems/sort-list/]
+3. [Sort List](https://leetcode.com/problems/sort-list/)
 
-4. (Delete node in a linked list)[https://leetcode.com/problems/delete-node-in-a-linked-list/]
+4. [Delete node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
