@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.html": "django-html",
+        "string": "cpp",
+        "array": "cpp",
+        "iostream": "cpp",
+        "unordered_set": "cpp"
+    }
+}
