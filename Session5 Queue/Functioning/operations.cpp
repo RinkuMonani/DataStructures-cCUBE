@@ -1,11 +1,16 @@
 /*
-
     1. queue::empty()
-        true: 0, false - 0
+        true: 1, false - 0
 
-    2. queue.size()
+    2. queue::size()
 
     3. queue::swap()
+    q1.swap(q2)
+
+    q1 - 
+    q2 - 1, 2, 3
+
+
 
     4. queue::front()
 
